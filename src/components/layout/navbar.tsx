@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Search } from "lucide-react";
+import { Show, UserButton } from "@clerk/nextjs";
 
 import { Container } from "@/components/layout/container";
 import { Logo } from "@/components/layout/logo";
@@ -38,21 +39,38 @@ function Navbar() {
           >
             <Search aria-hidden="true" />
           </Button>
-          <Button
-            variant="ghost"
-            className="hidden sm:inline-flex"
-            nativeButton={false}
-            render={<Link href="/sign-in" />}
+          <Show
+            when="signed-in"
+            fallback={
+              <>
+                <Button
+                  variant="ghost"
+                  className="hidden sm:inline-flex"
+                  nativeButton={false}
+                  render={<Link href="/login" />}
+                >
+                  Log In
+                </Button>
+                <Button
+                  className="hidden sm:inline-flex"
+                  nativeButton={false}
+                  render={<Link href="/sign-up" />}
+                >
+                  Get Started
+                </Button>
+              </>
+            }
           >
-            Log In
-          </Button>
-          <Button
-            className="hidden sm:inline-flex"
-            nativeButton={false}
-            render={<Link href="/sign-up" />}
-          >
-            Get Started
-          </Button>
+            <Button
+              variant="ghost"
+              className="hidden sm:inline-flex"
+              nativeButton={false}
+              render={<Link href="/dashboard" />}
+            >
+              Dashboard
+            </Button>
+            <UserButton />
+          </Show>
           <MobileNav />
         </div>
       </Container>

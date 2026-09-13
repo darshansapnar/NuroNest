@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { Menu } from "lucide-react";
+import { useUser, UserButton } from "@clerk/nextjs";
 
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import {
   Sheet,
   SheetTrigger,
@@ -16,6 +17,8 @@ import { mainNavLinks } from "@/lib/site-config";
 import { Logo } from "@/components/layout/logo";
 
 function MobileNav() {
+  const { isSignedIn } = useUser();
+
   return (
     <Sheet>
       <SheetTrigger
@@ -42,16 +45,41 @@ function MobileNav() {
           ))}
         </nav>
         <div className="mt-auto flex flex-col gap-2 border-t border-border px-4 py-4">
-          <SheetClose
-            render={<Button size="lg" className="w-full" />}
-          >
-            Get Started
-          </SheetClose>
-          <SheetClose
-            render={<Button variant="outline" size="lg" className="w-full" />}
-          >
-            Log In
-          </SheetClose>
+          {isSignedIn ? (
+            <>
+              <SheetClose
+                nativeButton={false}
+                render={<Link href="/dashboard" />}
+                className={buttonVariants({ size: "lg", className: "w-full" })}
+              >
+                Dashboard
+              </SheetClose>
+              <div className="flex items-center justify-center py-1">
+                <UserButton />
+              </div>
+            </>
+          ) : (
+            <>
+              <SheetClose
+                nativeButton={false}
+                render={<Link href="/sign-up" />}
+                className={buttonVariants({ size: "lg", className: "w-full" })}
+              >
+                Get Started
+              </SheetClose>
+              <SheetClose
+                nativeButton={false}
+                render={<Link href="/login" />}
+                className={buttonVariants({
+                  variant: "outline",
+                  size: "lg",
+                  className: "w-full",
+                })}
+              >
+                Log In
+              </SheetClose>
+            </>
+          )}
         </div>
       </SheetContent>
     </Sheet>
