@@ -13,9 +13,9 @@ const trustItems = [
 
 function HeroSection() {
   return (
-    <section className="overflow-hidden bg-gradient-to-b from-muted/60 to-background">
-      <Container className="grid grid-cols-1 items-center gap-8 py-12 sm:py-16 lg:grid-cols-12 lg:gap-6 lg:py-10">
-        <div className="flex flex-col items-start gap-5 text-left lg:col-span-5">
+    <section className="relative overflow-hidden bg-background">
+      <Container className="relative z-10 flex flex-col gap-8 py-12 sm:py-16 lg:min-h-[600px] lg:justify-center lg:py-24">
+        <div className="flex flex-col items-start gap-5 text-left lg:max-w-md lg:pr-4">
           <span className="text-sm font-medium tracking-wide text-primary uppercase">
             A calmer tomorrow
           </span>
@@ -62,11 +62,9 @@ function HeroSection() {
             ))}
           </div>
         </div>
-
-        <div className="lg:col-span-7">
-          <HeroImagePanel />
-        </div>
       </Container>
+
+      <HeroImagePanel />
     </section>
   );
 }
