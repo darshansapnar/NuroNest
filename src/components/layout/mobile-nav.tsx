@@ -43,6 +43,11 @@ function MobileNav() {
         </nav>
         <div className="mt-auto flex flex-col gap-2 border-t border-border px-4 py-4">
           <SheetClose
+            render={<Button size="lg" className="w-full" />}
+          >
+            Get Started
+          </SheetClose>
+          <SheetClose
             render={<Button variant="outline" size="lg" className="w-full" />}
           >
             Log In

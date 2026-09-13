@@ -1,15 +1,15 @@
 import { HeroSection } from "@/components/landing/hero-section";
-import { ValuePropsSection } from "@/components/landing/value-props-section";
-import { SecondaryExploreSection } from "@/components/landing/secondary-explore-section";
-import { DisclaimerSection } from "@/components/landing/disclaimer-section";
+import { ExploreToolsSection } from "@/components/landing/explore-tools-section";
+import { SafePrivateSection } from "@/components/landing/safe-private-section";
+import { CtaBannerSection } from "@/components/landing/cta-banner-section";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <ValuePropsSection />
-      <SecondaryExploreSection />
-      <DisclaimerSection />
+      <ExploreToolsSection />
+      <SafePrivateSection />
+      <CtaBannerSection />
     </>
   );
 }

@@ -12,7 +12,7 @@ export type NavLink = {
 
 export const mainNavLinks: NavLink[] = [
   { label: "AI Companion", href: "/ai-companion" },
-  { label: "Assessment", href: "/assessment" },
+  { label: "Assessments", href: "/assessment" },
   { label: "Relaxation", href: "/relaxation" },
   { label: "Professionals", href: "/professionals" },
   { label: "Resources", href: "/resources" },
@@ -20,20 +20,29 @@ export const mainNavLinks: NavLink[] = [
 
 export const footerLinkGroups: { title: string; links: NavLink[] }[] = [
   {
-    title: "Explore",
+    title: "Product",
     links: [
       { label: "AI Companion", href: "/ai-companion" },
-      { label: "Mental Health Assessment", href: "/assessment" },
+      { label: "Assessments", href: "/assessment" },
       { label: "Relaxation Hub", href: "/relaxation" },
-      { label: "Find a Professional", href: "/professionals" },
-      { label: "Wellness Resources", href: "/resources" },
+      { label: "Professionals", href: "/professionals" },
+      { label: "Resources", href: "/resources" },
     ],
   },
   {
-    title: "Legal",
+    title: "Company",
     links: [
+      { label: "About", href: "/about" },
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Service", href: "/terms" },
+      { label: "Contact", href: "/contact" },
     ],
   },
+];
+
+export const socialLinks = [
+  { label: "Instagram", href: "#", icon: "instagram" as const },
+  { label: "X", href: "#", icon: "x" as const },
+  { label: "LinkedIn", href: "#", icon: "linkedin" as const },
+  { label: "YouTube", href: "#", icon: "youtube" as const },
 ];

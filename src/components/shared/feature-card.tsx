@@ -23,6 +23,7 @@ function FeatureCard({
   description,
   href,
   ctaLabel = "Explore",
+  media,
   className,
 }: {
   icon: LucideIcon;
@@ -31,26 +32,31 @@ function FeatureCard({
   description: string;
   href?: string;
   ctaLabel?: string;
+  media?: React.ReactNode;
   className?: string;
 }) {
   const content = (
     <Card
       className={cn(
-        "h-full rounded-2xl shadow-sm ring-1 ring-foreground/5 transition-all duration-200",
+        "overflow-hidden rounded-2xl shadow-sm ring-1 ring-foreground/5 transition-all duration-200",
+        media && "pt-0",
         href && "group-hover:-translate-y-0.5 group-hover:shadow-md",
-        className,
+        !href && className,
       )}
     >
-      <CardContent className="flex h-full flex-col gap-4">
+      {media ? (
+        <div className="relative aspect-[4/3] w-full overflow-hidden">{media}</div>
+      ) : null}
+      <CardContent className="flex flex-col gap-4">
         <span
           className={cn(
-            "flex size-11 shrink-0 items-center justify-center rounded-xl",
+            "flex size-11 shrink-0 items-center justify-center rounded-full",
             toneClasses[tone],
           )}
         >
           <Icon className="size-5" aria-hidden="true" />
         </span>
-        <div className="flex flex-1 flex-col gap-1.5">
+        <div className="flex flex-col gap-1.5">
           <h3 className="font-heading text-lg font-semibold text-foreground">
             {title}
           </h3>
@@ -76,7 +82,13 @@ function FeatureCard({
   }
 
   return (
-    <Link href={href} className="group block h-full rounded-2xl outline-none focus-visible:ring-3 focus-visible:ring-ring/50">
+    <Link
+      href={href}
+      className={cn(
+        "group block rounded-2xl outline-none focus-visible:ring-3 focus-visible:ring-ring/50",
+        className,
+      )}
+    >
       {content}
     </Link>
   );

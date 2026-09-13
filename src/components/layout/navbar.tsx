@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Search } from "lucide-react";
 
 import { Container } from "@/components/layout/container";
 import { Logo } from "@/components/layout/logo";
@@ -28,14 +29,29 @@ function Navbar() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5">
           <Button
-            variant="outline"
+            variant="ghost"
+            size="icon"
+            aria-label="Search"
+            className="hidden sm:inline-flex"
+          >
+            <Search aria-hidden="true" />
+          </Button>
+          <Button
+            variant="ghost"
             className="hidden sm:inline-flex"
             nativeButton={false}
             render={<Link href="/sign-in" />}
           >
             Log In
+          </Button>
+          <Button
+            className="hidden sm:inline-flex"
+            nativeButton={false}
+            render={<Link href="/sign-up" />}
+          >
+            Get Started
           </Button>
           <MobileNav />
         </div>
