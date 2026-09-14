@@ -11,10 +11,9 @@ export type NavLink = {
 };
 
 export const mainNavLinks: NavLink[] = [
-  { label: "AI Companion", href: "/ai-companion" },
+  { label: "Home", href: "/" },
+  { label: "Chat with Nuro", href: "/ai-companion" },
   { label: "Assessments", href: "/assessment" },
-  { label: "Relaxation", href: "/relaxation" },
-  { label: "Professionals", href: "/professionals" },
   { label: "Resources", href: "/resources" },
 ];
 
