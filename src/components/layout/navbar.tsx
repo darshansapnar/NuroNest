@@ -15,6 +15,10 @@ import { cn } from "@/lib/utils";
 function Navbar() {
   const pathname = usePathname();
 
+  if (pathname?.startsWith("/relaxation")) {
+    return null;
+  }
+
   return (
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/90 backdrop-blur-md">
       <Container className="flex h-16 items-center justify-between">

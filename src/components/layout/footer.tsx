@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { HeartHandshake, Leaf } from "lucide-react";
 
 import { Container } from "@/components/layout/container";
@@ -10,6 +13,12 @@ import { Separator } from "@/components/ui/separator";
 import { footerLinkGroups, siteConfig } from "@/lib/site-config";
 
 function Footer() {
+  const pathname = usePathname();
+
+  if (pathname?.startsWith("/relaxation")) {
+    return null;
+  }
+
   return (
     <footer className="border-t border-border bg-muted/50">
       <Container className="py-12 sm:py-16">

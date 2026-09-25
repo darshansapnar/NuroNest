@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound, useRouter } from "next/navigation";
 import { useSyncExternalStore } from "react";
 import { Container } from "@/components/layout/container";
+import { AssessmentResultBackground } from "@/components/assessment/assessment-result-background";
 import { AssessmentResultCard } from "@/components/assessment/assessment-result-card";
 import { ASSESSMENTS } from "@/lib/assessments/registry";
 import { clearAssessmentResult, loadAssessmentResult, subscribeAssessmentResults } from "@/lib/assessments/storage";
@@ -32,7 +33,8 @@ export default function AssessmentResultPage(props: PageProps<"/assessment/resul
 
   if (!result) {
     return (
-      <div className="min-h-screen bg-[#FBF9F4] text-[#1C352D]">
+      <div className="min-h-screen text-[#1C352D]">
+        <AssessmentResultBackground />
         <Container className="flex flex-col items-center gap-4 py-24 text-center">
           <h1 className="font-heading text-2xl font-normal sm:text-3xl">No result to show yet</h1>
           <p className="max-w-md text-sm leading-relaxed text-[#4A5750] sm:text-base">
@@ -51,7 +53,8 @@ export default function AssessmentResultPage(props: PageProps<"/assessment/resul
   }
 
   return (
-    <div className="min-h-screen bg-[#FBF9F4] text-[#1C352D]">
+    <div className="min-h-screen text-[#1C352D]">
+      <AssessmentResultBackground />
       <Container className="py-10 sm:py-14">
         <AssessmentResultCard result={result} onRetake={handleRetake} />
       </Container>
