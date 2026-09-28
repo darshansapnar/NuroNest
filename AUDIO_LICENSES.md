@@ -1,9 +1,10 @@
 # Audio Licenses
 
 This file records the provenance and license terms for every real audio file
-used in the Meditation feature. Every entry below was individually verified
-on its own Pixabay page before the file was downloaded — do not assume other
-Pixabay tracks carry identical terms without checking their own page first.
+used in the Meditation and Sleep Support features. Every entry below was
+individually verified on its own Pixabay page before the file was
+downloaded — do not assume other Pixabay tracks carry identical terms
+without checking their own page first.
 
 No audio is recorded, generated, or sourced from YouTube, Spotify, Apple
 Music, Headspace, Calm, Insight Timer, or any source with unclear licensing.
@@ -151,6 +152,264 @@ credited here as good practice: "Music by NourishedByMusic from Pixabay."
 bitrate/size (15,234,816 bytes at 256kbps MP3). The source page's own
 description confirms this is instrumental ambient music with no spoken
 vocals or narration.
+
+---
+
+## Sleep Support audio
+
+The entries below back the **Sleep Support** feature's selectable Sleep
+Experiences (12 total). Each file loops under an independent
+15/30/45/60-minute Sleep Timer that is not tied to the track's own length.
+
+---
+
+## Gentle Rain for Relaxation and Sleep
+
+**Title:** Gentle Rain for Relaxation and Sleep
+**Creator:** Eryliaa
+**Local filename:** `public/audio/sleep/gentle-rain.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/nature-gentle-rain-for-relaxation-and-sleep-337279/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Duration:** 8:51 (531s) — confirmed against the downloaded file's
+bitrate/size (16,979,712 bytes at 256kbps MP3).
+**Sleep Experience:** **Gentle Rain**
+**Audio type:** Nature sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by Eryliaa from Pixabay."
+
+---
+
+## Soothing Ocean Waves
+
+**Title:** Soothing Ocean Waves
+**Creator:** DRAGON-STUDIO
+**Local filename:** `public/audio/sleep/ocean-waves.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/nature-soothing-ocean-waves-372489/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Duration:** 2:12 (132s) — confirmed against the downloaded file's
+bitrate/size (4,226,403 bytes at 256kbps MP3).
+**Sleep Experience:** **Ocean Waves**
+**Audio type:** Nature sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by DRAGON-STUDIO from
+Pixabay."
+
+---
+
+## Night Forest with Frogs and Crickets for Sleep
+
+**Title:** Night Forest with Frogs and Crickets for Sleep
+**Creator:** Eryliaa
+**Local filename:** `public/audio/sleep/night-forest.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/nature-night-forest-with-frogs-and-crickets-for-sleep-451153/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Duration:** 13:37 (817s) — confirmed against the downloaded file's
+bitrate/size (26,143,488 bytes at 256kbps MP3).
+**Sleep Experience:** **Night Forest**
+**Audio type:** Nature sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by Eryliaa from Pixabay."
+
+---
+
+## Soft Brown Noise
+
+**Title:** Soft Brown Noise
+**Creator:** Cosmic-Scapes
+**Local filename:** `public/audio/sleep/brown-noise.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/film-special-effects-soft-brown-noise-299934/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Duration:** 10:00 (600s) — confirmed against the downloaded file's
+bitrate/size (19,201,044 bytes at 256kbps MP3).
+**Sleep Experience:** **Brown Noise**
+**Audio type:** Noise/ambient sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by Cosmic-Scapes from
+Pixabay."
+
+---
+
+## Low Pink Noise
+
+**Title:** Low Pink Noise
+**Creator:** DanEvaer
+**Local filename:** `public/audio/sleep/pink-noise.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/low-pink-noise-434732/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Duration:** 5:00 (300s) — confirmed against the downloaded file's
+bitrate/size (9,601,358 bytes at 256kbps MP3).
+**Sleep Experience:** **Pink Noise**
+**Audio type:** Noise/ambient sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by DanEvaer from Pixabay."
+
+---
+
+## Relaxing Sleep Music for Stress Relief || Deep Sleep On Bed Time
+
+**Title:** Relaxing Sleep Music for Stress Relief || Deep Sleep On Bed Time
+**Creator:** VFS_World
+**Local filename:** `public/audio/sleep/sleep-meditation.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/music/ambient-relaxing-sleep-music-for-stress-relief-deep-sleep-on-bed-time-482793/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Duration:** 8:00 (480s) — confirmed against the downloaded file's
+bitrate/size (15,363,072 bytes at 256kbps MP3).
+**Sleep Experience:** **Sleep Meditation**
+**Audio type:** Instrumental/ambient background music — not spoken guided
+narration. Verified on the track's own page: description and tags ("Deep
+Sleep, Sleep, Sleeping, Bed, Rest, Dreaming, Bedroom, Dream, Calm") describe
+ambient sleep music with no mention of vocals or narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Music by VFS_World from Pixabay."
+
+---
+
+## WhiteNoise
+
+**Title:** WhiteNoise
+**Creator:** DRAGON-STUDIO
+**Local filename:** `public/audio/sleep/soft-white-noise.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/film-special-effects-whitenoise-372485/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Content ID status:** Not registered — no "Content ID Registered" badge on
+the track page.
+**Duration:** 15:00 (900s) — confirmed against the downloaded file's
+bitrate/size (28,798,223 bytes at 256kbps MP3).
+**Sleep Experience:** **Soft White Noise**
+**Audio type:** Noise/ambient sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by DRAGON-STUDIO from
+Pixabay."
+
+---
+
+## Gentle Wind Sounds
+
+**Title:** Gentle Wind Sounds
+**Creator:** DRAGON-STUDIO
+**Local filename:** `public/audio/sleep/gentle-wind.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/nature-gentle-wind-sounds-584728/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Content ID status:** Not registered — no "Content ID Registered" badge on
+the track page.
+**Duration:** 1:00 (60s) — confirmed against the downloaded file's
+bitrate/size (1,920,768 bytes at 256kbps MP3).
+**Sleep Experience:** **Gentle Wind**
+**Audio type:** Nature sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by DRAGON-STUDIO from
+Pixabay."
+
+---
+
+## Rain And Thunder
+
+**Title:** Rain And Thunder
+**Creator:** SoundsForYou
+**Local filename:** `public/audio/sleep/rain-and-thunder.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/nature-rain-and-thunder-113218/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Content ID status:** Not registered — no "Content ID Registered" badge on
+the track page.
+**Duration:** 3:00 (180s) — confirmed against the downloaded file's
+bitrate/size (5,767,000 bytes at 256kbps MP3).
+**Sleep Experience:** **Rain & Distant Thunder**
+**Audio type:** Weather sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by SoundsForYou from
+Pixabay."
+
+---
+
+## Night rain in the forest
+
+**Title:** Night rain in the forest
+**Creator:** DRAGON-STUDIO
+**Local filename:** `public/audio/sleep/night-rain-forest.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/nature-night-rain-in-the-forest-584717/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Content ID status:** Not registered — no "Content ID Registered" badge on
+the track page.
+**Duration:** 1:00 (60s) — confirmed against the downloaded file's
+bitrate/size (1,921,776 bytes at 256kbps MP3).
+**Sleep Experience:** **Night Rain Forest**
+**Audio type:** Nature sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by DRAGON-STUDIO from
+Pixabay."
+
+---
+
+## Night ambience (Nature-Crickets-Dog barks)
+
+**Title:** Night ambience (Nature-Crickets-Dog barks)
+**Creator:** aatreya_v
+**Local filename:** `public/audio/sleep/quiet-night-ambience.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/nature-night-ambience-nature-crickets-dog-barks-286923/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Content ID status:** Not registered — no "Content ID Registered" badge on
+the track page.
+**Duration:** 0:52 (52s) — confirmed against the downloaded file's
+bitrate/size (1,666,560 bytes at 256kbps MP3).
+**Sleep Experience:** **Quiet Night Ambience**
+**Audio type:** Nature/ambient sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by Aatreya V from Pixabay."
+
+---
+
+## Water Stream SFX
+
+**Title:** Water Stream SFX
+**Creator:** SoundReality
+**Local filename:** `public/audio/sleep/peaceful-water-stream.mp3`
+**Source:** Pixabay
+**Source URL:** https://pixabay.com/sound-effects/film-special-effects-water-stream-sfx-525009/
+**License:** Pixabay Content License
+**License URL:** https://pixabay.com/service/license-summary/
+**Date verified:** 2026-09-29
+**Content ID status:** Not registered — no "Content ID Registered" badge on
+the track page.
+**Duration:** 0:48 (48s) — confirmed against the downloaded file's
+bitrate/size (1,536,768 bytes at 256kbps MP3).
+**Sleep Experience:** **Peaceful Water Stream**
+**Audio type:** Nature sound effect — not spoken narration.
+**Attribution required:** Not required by the Pixabay Content License, but
+credited here as good practice: "Sound Effect by SoundReality from
+Pixabay."
 
 ---
 

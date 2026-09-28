@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { RelaxationTopbar } from "@/components/relaxation/relaxation-topbar";
 import { RelaxationHero } from "@/components/relaxation/relaxation-hero";
 import { RelaxationNeeds } from "@/components/relaxation/relaxation-needs";
 import { ContinueRelaxing } from "@/components/relaxation/continue-relaxing";
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
 export default function RelaxationPage() {
   return (
     <div className="flex flex-col gap-8 sm:gap-9">
+      <RelaxationTopbar currentPage="Relaxation Hub" />
       <RelaxationHero />
       <RelaxationNeeds />
 
