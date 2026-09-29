@@ -3,6 +3,7 @@ import {
   Brain,
   ClipboardCheck,
   Flower2,
+  HandHeart,
   Home,
   Leaf,
   LayoutDashboard,
@@ -30,13 +31,18 @@ export type SidebarNavLink = {
 };
 
 export type RelaxationCategory = {
-  slug: "breathing" | "meditation" | "sleep" | "sounds" | "music";
+  slug: "breathing" | "meditation" | "sleep" | "sounds" | "music" | "mindful-reset";
   title: string;
   description: string;
   href: string;
   image: string;
   imageAlt: string;
   icon: LucideIcon;
+  /**
+   * Whether this category is shown in the Relaxation Hub UI (cards, nav).
+   * Set to false to hide a category without deleting its data/assets.
+   */
+  visibleInHub: boolean;
 };
 
 export type RelaxationTrack = {
@@ -93,6 +99,7 @@ export const relaxationCategories: RelaxationCategory[] = [
     image: "/images/relaxation-hub/breathing.png",
     imageAlt: "Soft watercolor illustration of green leaves and branches",
     icon: Wind,
+    visibleInHub: true,
   },
   {
     slug: "meditation",
@@ -102,6 +109,7 @@ export const relaxationCategories: RelaxationCategory[] = [
     image: "/images/relaxation-hub/meditation.png",
     imageAlt: "Balanced stones beside a calm lake at sunset",
     icon: Flower2,
+    visibleInHub: true,
   },
   {
     slug: "sleep",
@@ -111,6 +119,7 @@ export const relaxationCategories: RelaxationCategory[] = [
     image: "/images/relaxation-hub/sleep-support.png",
     imageAlt: "A crescent moon over a quiet lake at night",
     icon: Moon,
+    visibleInHub: true,
   },
   {
     slug: "sounds",
@@ -120,6 +129,7 @@ export const relaxationCategories: RelaxationCategory[] = [
     image: "/images/relaxation-hub/relaxation-sounds.png",
     imageAlt: "A gentle waterfall flowing through a sunlit forest",
     icon: Trees,
+    visibleInHub: false,
   },
   {
     slug: "music",
@@ -129,6 +139,19 @@ export const relaxationCategories: RelaxationCategory[] = [
     image: "/images/relaxation-hub/instrumental.png",
     imageAlt: "An acoustic guitar resting on a porch at sunrise",
     icon: Music2,
+    visibleInHub: false,
+  },
+  {
+    slug: "mindful-reset",
+    title: "Mindful Reset",
+    description:
+      "Guided body-awareness and grounding practices to release tension.",
+    href: "/relaxation/mindful-reset",
+    image: "/images/mind%20reset/header.png",
+    imageAlt:
+      "A person sitting cross-legged and at ease on a wooden deck overlooking a calm lake and green mountains",
+    icon: HandHeart,
+    visibleInHub: true,
   },
 ];
 
